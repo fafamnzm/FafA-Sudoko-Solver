@@ -8,27 +8,7 @@ original.append([7, 8, 2, 0, 3, 6, 0, 1, 0])
 original.append([9, 0, 5, 2, 6, 4, 7, 3, 0])
 original.append([0, 0, 0, 0, 0, 1, 2, 6, 9])
 original.append([0, 0, 0, 0, 0, 3, 1, 5, 4])
-""" original = []
-original.append([3, 0, 6, 5, 0, 8, 4, 0, 0])
-original.append([5, 2, 0, 0, 0, 0, 0, 0, 0])
-original.append([0, 8, 7, 0, 0, 0, 0, 3, 1])
-original.append([0, 0, 3, 0, 1, 0, 0, 8, 0])
-original.append([9, 0, 0, 8, 6, 3, 0, 0, 5])
-original.append([0, 5, 0, 0, 9, 0, 6, 0, 0])
-original.append([1, 3, 0, 0, 0, 0, 2, 5, 0])
-original.append([0, 0, 0, 0, 0, 0, 0, 7, 4])
-original.append([0, 0, 5, 2, 0, 6, 3, 0, 0]) """
 
-""" checker = []
-checker.append([8, 0, 0, 7, 1, 0, 0, 0, 0])
-checker.append([3, 2, 7, 0, 0, 0, 0, 0, 0])
-checker.append([0, 0, 1, 0, 2, 9, 8, 7, 6])
-checker.append([6, 5, 0, 0, 0, 0, 0, 0, 0])
-checker.append([0, 0, 0, 5, 9, 0, 0, 8, 2])
-checker.append([7, 8, 2, 0, 3, 6, 0, 1, 0])
-checker.append([9, 0, 5, 2, 6, 4, 7, 3, 0])
-checker.append([0, 0, 0, 0, 0, 1, 2, 6, 9])
-checker.append([0, 0, 0, 0, 0, 3, 1, 5, 4]) """
 
 checker = original
 
