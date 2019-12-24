@@ -1,0 +1,18 @@
+
+*.cmd
+node_modules/.bin/jshint
+node_modules/.bin/shjs
+node_modules/.bin/strip-json-comments
+*.md
+*.txt
+*.txt
+*.js
+node_modules/jshint/LICENSE
+*.swp
+*.json
+node_modules/shelljs/.npmignore
+node_modules/shelljs/LICENSE
+*.yml
+test stuff .py
+Trinket Download-c3224e0644.zip
+Trinket Download-76364ce601.zip
