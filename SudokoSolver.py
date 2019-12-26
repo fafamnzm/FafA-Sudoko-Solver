@@ -1,7 +1,6 @@
-#Works perfectly fine and extremly fast and efficient with most sudokos 
-#But still needs a little work for Sudokos that are built mainly
-#  with backtracking and are not easily solved by human
-#Still in progress
+#Works perfectly fine and extremly fast and efficient with Sudokos
+# with single answers, it also shows where duplicates happen so it can be fixed later
+#Still in progress so it can generate one with is as well
 
 import time
 from random import randint, shuffle
@@ -17,8 +16,8 @@ original.append([9, 0, 5, 2, 6, 4, 7, 3, 0])
 original.append([0, 0, 0, 0, 0, 1, 2, 6, 9])
 original.append([0, 0, 0, 0, 0, 3, 1, 5, 4])
 """ original = []
-original.append([3, 0, 6, 5, 0, 8, 4, 0, 0])
-original.append([5, 2, 0, 0, 0, 0, 0, 0, 0])
+original.append([3, 0, 6, 5, 0, 8, 4, 0, 2])
+original.append([5, 2, 0, 0, 0, 0, 0, 0, 8])
 original.append([0, 8, 7, 0, 0, 0, 0, 3, 1])
 original.append([0, 0, 3, 0, 1, 0, 0, 8, 0])
 original.append([9, 0, 0, 8, 6, 3, 0, 0, 5])
@@ -67,6 +66,8 @@ def SudoSolver():
 
     def finisher(tbl):
         if count > 1000:
+            print("Sudoko Does not have a single answer")
+            print("You can find the duplicates bellow: ")
             return False
         
         for row in range(9):
